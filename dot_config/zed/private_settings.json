@@ -13,9 +13,14 @@
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_assistant": false
+    "enabled_in_text_threads": false
   },
   "vim_mode": true,
+  "vim": {
+    "enabled": true,
+    "default_mode": "helix_normal",
+    "keybindings": {}
+  },
   "features": {
     "edit_prediction_provider": "zed"
   },
