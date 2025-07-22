@@ -5,6 +5,9 @@ end
 set -U fish_greeting
 set -gx EDITOR hx
 
+fish_add_path -g ~/.npm-global/bin
+fish_add_path -g ~/.opencode/bin
+
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"

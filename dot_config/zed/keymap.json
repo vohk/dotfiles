@@ -5,4 +5,12 @@
 //
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
-[]
+[
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      // default escape key keeps kicking me back to vim normal_mode
+      "escape": "vim::HelixNormalAfter"
+    }
+  }
+]
