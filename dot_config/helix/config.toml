@@ -3,7 +3,8 @@ theme = "kanagawa-dragon"
 [editor]
 color-modes = true
 line-number = "relative"
-mouse = false
+# mouse = false
+default-yank-register = "+"
 
 # Resolve true color detection problems (e.g. on Linux in Windows WSL2)
 # such as the error, "theme: theme requires true color support".
@@ -21,6 +22,7 @@ select = "underline"
 esc = ["collapse_selection", "normal_mode"]
 
 [keys.normal]
+"#" = "toggle_comments"
 esc = ["collapse_selection", "keep_primary_selection"]
 ret = ["move_line_down", "goto_first_nonwhitespace"]
 0   = "goto_line_start"
@@ -35,3 +37,6 @@ C-y = [
 [keys.select]
 esc = ["collapse_selection", "keep_primary_selection", "normal_mode"]
 0   = "goto_line_start"
+
+[keys.normal.space]
+l = ":reflow"

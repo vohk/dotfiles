@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ssh_connections": [
+    {
+      "host": "mothership.unnportal.io",
+      "projects": []
+    }
+  ],
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -15,22 +21,17 @@
     },
     "enabled_in_text_threads": false
   },
-  "vim_mode": true,
-  "vim": {
-    "enabled": true,
-    "default_mode": "helix_normal",
-    "keybindings": {}
-  },
+  "helix_mode": true,
   "features": {
     "edit_prediction_provider": "zed"
   },
   "ui_font_features": {
-    // Disable ligatures:
+    // Enable ligatures:
     "calt": true
   },
   "ui_font_size": 16,
   //  "buffer_font_family": "Zed Plex Mono",
-  "buffer_font_family": "AtkynsonMono Nerd Font Mono",
+  "buffer_font_family": "Maple Mono",
   "buffer_font_size": 15,
   "cursor_blink": false,
   "cursor_shape": "block",
