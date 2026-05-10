@@ -8,3 +8,6 @@ Directory=/home/king
 Name=mine
 Parent=FALLBACK/
 SemanticInputClick=true
+
+[Scrolling]
+ScrollBarPosition=2
