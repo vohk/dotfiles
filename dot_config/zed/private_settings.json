@@ -7,6 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "ssh_connections": [
     {
       "host": "mothership.unnportal.io",
@@ -14,6 +31,7 @@
     }
   ],
   "edit_predictions": {
+    "provider": "zed",
     "mode": "subtle",
     "copilot": {
       "proxy": null,
@@ -22,9 +40,6 @@
     "enabled_in_text_threads": false
   },
   "helix_mode": true,
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
   "ui_font_features": {
     // Enable ligatures:
     "calt": true
@@ -38,6 +53,6 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Kanagawa Dragon"
+    "dark": "Kanagawa Wave"
   }
 }

@@ -4,6 +4,7 @@ end
 
 set -U fish_greeting
 set -gx EDITOR hx
+set -gx SSH_AUTH_SOCK ~/.1password/agent.sock
 
 fish_add_path -g ~/.npm-global/bin
 fish_add_path -g ~/.opencode/bin
@@ -17,4 +18,6 @@ function y
     rm -f -- "$tmp"
 end
 
+### bling.fish source start
 test -f /usr/share/bazzite-cli/bling.fish && source /usr/share/bazzite-cli/bling.fish
+### bling.fish source end
