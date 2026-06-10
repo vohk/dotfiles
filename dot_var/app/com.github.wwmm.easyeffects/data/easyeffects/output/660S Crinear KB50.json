@@ -4,7 +4,7 @@
         "equalizer#0": {
             "balance": 0.0,
             "bypass": false,
-            "input-gain": -12.0,
+            "input-gain": -16.0,
             "left": {
                 "band0": {
                     "frequency": 20.0,
